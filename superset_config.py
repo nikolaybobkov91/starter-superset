@@ -153,8 +153,8 @@ CORS_OPTIONS = {
 }
 
 # Superset specific config 
-ROW_LIMIT = 5000
-QUERY_SEARCH_LIMIT = 3000
+ROW_LIMIT = 50000
+
 SQL_MAX_ROW = 1000000
 
 # Flask-WTF flag for CSRF 
