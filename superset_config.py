@@ -77,6 +77,7 @@ FEATURE_FLAGS = {
     "THUMBNAILS": True,
     "THUMBNAILS_SQLA_LISTENERS": True,
     "ALERT_REPORTS": True,
+    "ENABLE_SUPERSET_META_DB": True
 }
 
 
@@ -153,6 +154,8 @@ CORS_OPTIONS = {
 
 # Superset specific config 
 ROW_LIMIT = 5000
+QUERY_SEARCH_LIMIT = 3000
+SQL_MAX_ROW = 1000000
 
 # Flask-WTF flag for CSRF 
 WTF_CSRF_ENABLED = False
