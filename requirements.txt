@@ -3,3 +3,4 @@ snowflake-connector-python
 snowflake-sqlalchemy
 typing-extensions
 apache-superset[cors]
+clickhouse-connect>=0.6.8
